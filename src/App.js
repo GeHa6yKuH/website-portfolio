@@ -5,10 +5,22 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import { useState } from "react";
+import AnimatedText from "./components/AnimatedText";
+import {
+  faLinkedin,
+  faGithub,
+  faDiscord
+} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
+
+  const [letterClass, setLetterClass] = useState('text-animate')
+  const letterTextArray = Array.from("const char* name = \"Bogdans Podalevics\";")
+
   return (
-    <div style={{ position: 'relative', height: '100vh' }}>
+    <div style={{ position: 'relative', height: '100vh' }} className='maindiv'>
       <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -21,21 +33,46 @@ function App() {
         position: 'absolute',
         right: 50,
         bottom: 0,
-        height: '30%',
-        width: '2px',
+        height: '20%',
+        width: '1.5px',
         backgroundColor: 'yellow'
       }}></div>
-      
-      <div style={{
-        position: 'absolute',
-        fontSize: 18,
-        right: -95,
-        bottom: '45%',
-        transform: 'rotate(-90deg)',
-        color: 'white' 
-      }}>
-         const char* name = Bogdans Podalevics;
+
+      <div className="vertical-text">
+        <AnimatedText  
+        letterClass={letterClass}
+        strArray={letterTextArray} 
+        idx={0}
+        />
       </div>
+
+      <ul>
+            <li>
+                <a
+                className='linkedIn' 
+                target='_blank' 
+                rel='noreffer' 
+                href='https://www.linkedin.com/in/bogdans-podaļevičs-7a380529a'>
+                    <FontAwesomeIcon icon={faLinkedin} color="#9f7a7a" />
+                </a>
+            </li>
+            <li>
+                <a 
+                target='_blank' 
+                rel='noreffer' 
+                href='https://github.com/GeHa6yKuH'>
+                    <FontAwesomeIcon icon={faGithub} color="#9f7a7a" />
+                </a>
+            </li>
+            <li>
+                <a 
+                target='_blank' 
+                rel='noreffer' 
+                href='discord:bigdarian'>
+                    <FontAwesomeIcon icon={faDiscord} color="#9f7a7a" />
+                </a>
+            </li>
+        </ul>
     </div>
   )
 }
@@ -43,3 +80,12 @@ function App() {
 
 
 export default App;
+
+
+{/* <div className='text-zone'>
+        <AnimatedText  
+        letterClass={letterClass}
+        strArray={letterTextArray} 
+        idx={15}
+        />
+      </div> */}

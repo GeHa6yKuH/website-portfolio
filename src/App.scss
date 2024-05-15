@@ -9,6 +9,11 @@ $primary-color: #831c1c;
 }
 
 @font-face {
+  font-family: 'Cascadia';
+  src: url('./assets/fonts/Cascadia.ttf') format('ttf');
+}
+
+@font-face {
   font-family: 'La Belle Aurore';
   src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
 }
@@ -35,4 +40,46 @@ textarea {
   height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
+}
+
+ul {
+  position: absolute;
+  right: 39px;
+  bottom: 600px;
+  width: -40%;
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 100;
+  z-index: 9999;
+
+  li {
+      a {
+          padding: 7px 0;
+          display: block;
+          font-size: 18px;
+          line-height: 16px;
+
+          &:hover svg {
+              color: #ffffff;
+          }
+      }
+
+      a.linkedIn {
+          &:hover svg {
+              color: #7676e2;
+          }
+      }
+  }
+}
+
+.vertical-text {
+  position: absolute;
+  right: -148px;
+  font-size: 13px;
+  font-family: 'Cascadia';
+  bottom: 41%;
+  transform: rotate(-90deg);
+  color: white;
 }
