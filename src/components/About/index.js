@@ -3,7 +3,10 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGitAlt, faJava } from '@fortawesome/free-brands-svg-icons'
-import { faC } from '@fortawesome/free-solid-svg-icons'
+import cppIcon from '../../assets/images/cppicon.png'
+import ueIcon from '../../assets/images/ueicon.png'
+import springIcon from '../../assets/images/springicon.png'
+import sqlIcon from '../../assets/images/sqlicon.png'
 import Loader from 'react-loaders'
 
 const About = () => {
@@ -50,22 +53,22 @@ const About = () => {
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
-                        <FontAwesomeIcon icon={faJava} color='#2acaea' />
+                        <FontAwesomeIcon icon={faJava} color='#red' />
                     </div>
                     <div className='face2'>
-                        <FontAwesomeIcon icon={faC} color='#123456' />
+                        <img src={ueIcon} alt='ue icon' width={130} />
                     </div>
                     <div className='face3'>
-                        <FontAwesomeIcon icon={faGitAlt} color='#EC428' />
+                        <FontAwesomeIcon icon={faGitAlt} color='#CC0000' />
                     </div>
                     <div className='face4'>
-                        <FontAwesomeIcon icon={faJava} color='#2acaea' />
+                        <img src={cppIcon} alt='cpp icon' width={200} />
                     </div>
                     <div className='face5'>
-                        <FontAwesomeIcon icon={faC} color='#123456' />
+                        <img src={springIcon} alt='spring icon' width={130} />    
                     </div>
                     <div className='face6'>
-                        <FontAwesomeIcon icon={faGitAlt} color='#EC428' />
+                        <img src={sqlIcon} alt='sql icon' width={130} />
                     </div>
                 </div>
             </div>
