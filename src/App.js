@@ -21,6 +21,11 @@ function App() {
 
   return (
     <div style={{ position: 'relative', height: '100vh' }} className='maindiv'>
+
+      <video autoPlay loop muted className='bg-video'>
+          <source src='spacevid.mp4' type='video/mp4' />
+      </video>
+
       <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

@@ -72,6 +72,9 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
+                    <div className='emailtext'>
+                        Or contact me via email: bogdanspodalevics@gmail.com
+                    </div>
                 </div>
             </div>
             <Loader type='pacman' />
