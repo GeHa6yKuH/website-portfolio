@@ -50,7 +50,6 @@
         max-height: 90%;
         margin: auto 0;
         margin-right: 35%;
-        margin-bottom: 20%;
 
         h1 {
             font-size: 53px;
@@ -68,7 +67,7 @@
             color: #0c0c25;
             font-family: sans-serif;
             font-weight: 500;
-            font-size: 15px;
+            font-size: 18px;
             min-width: fit-content;
             animation: pulse 1s;
             animation-fill-mode: forwards;
@@ -85,12 +84,35 @@
                 animation-delay: 1.3s;
             }
         }
+
+        .emailtext {
+          font-family: 'Coolvetica';
+          color: #0c0c25;
+          font-size: 22px;
+          position: absolute;
+          margin-top: 150px;
+          margin-left: -8px;
+          animation: fadeIn 1s 1.7s backwards;
+          opacity: 1;
+        }
     }
 
     .text-animate-hover {
         &:hover {
             color: #fff;
         }
+    }
+}
+
+.about-page {
+    .text-zone {
+        margin-bottom: 16%;
+    }
+}
+
+.contact-page {
+    .text-zone {
+        margin-bottom: 20%;
     }
 }
 
