@@ -35,12 +35,13 @@ function App() {
           <Route path="projects" element={<Projects />} />
         </Route>
       </Routes>
+      
       <div
         style={{
-          position: 'absolute',
+          position: 'fixed',
           right: 50,
           bottom: 0,
-          height: '20%',
+          height: '19.5%',
           width: '1.5px',
           backgroundColor: 'yellow',
         }}

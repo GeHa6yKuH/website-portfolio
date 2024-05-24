@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from '../Sidebar'
-import Background from '../Background'
 import './index.scss';
 
 const Layout = () => {
@@ -25,7 +24,6 @@ const Layout = () => {
                 {"}"}
                 </span>
             </div>
-            {/* <Background /> */}
         </div>
     )
 }

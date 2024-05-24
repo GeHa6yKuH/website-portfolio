@@ -12,11 +12,6 @@ const Home = () => {
      'c', '+', '+', ' ',
      'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
-    useEffect(() => {
-        setTimeout(() => {
-            return setLetterClass('text-animate-hover')
-        }, 4000)
-    }, [])
 
     return (
         <>
@@ -44,7 +39,7 @@ const Home = () => {
                 </span>
             </div>
         </div>
-        <Loader type="pacman" />
+        <Loader/>
         </>
     )
 }

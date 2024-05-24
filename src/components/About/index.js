@@ -13,12 +13,6 @@ const About = () => {
     
     const [letterClass, setLetterClass] = useState('text-animate')
 
-    useEffect(() => {
-        setTimeout(() => {
-            return setLetterClass('text-animate-hover')
-        }, 3000)
-    }, [])
-
     return (
         <>
             <div className='container about-page'>
@@ -73,7 +67,7 @@ const About = () => {
                 </div>
             </div>
             </div>
-            <Loader type="pacman" />
+            <Loader/>
         </>
     )
 }

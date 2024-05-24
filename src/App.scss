@@ -1,6 +1,5 @@
 
 @import 'animate.css';
-@import '~loaders.css/src/animations/pacman.scss';
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -47,12 +46,10 @@ textarea {
   bottom: 0;
   width: 50px;
   height: 50px;
-  animation: fadeOut 1s 1s;
-  animation-fill-mode: forwards;
 }
 
 ul {
-  position: absolute;
+  position: fixed;
   right: 40px;
   bottom: 600px;
   width: -40%;
@@ -84,7 +81,7 @@ ul {
 }
 
 .vertical-text {
-  position: absolute;
+  position: fixed;
   right: -148px;
   font-size: 13px;
   font-family: 'Cascadia';
