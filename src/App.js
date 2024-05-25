@@ -18,6 +18,7 @@ function App() {
   const [letterClass, setLetterClass] = useState('text-animate')
   const letterTextArray = Array.from('const char* name = "Bogdans Podalevics";')
 
+
   return (
     <div
       style={{ position: 'relative', height: '100vh', overflow: 'auto' }}
