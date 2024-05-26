@@ -6,7 +6,6 @@ body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #141010;
-  background-image: url('../public/star-back.jpg');
   background-size: cover;
   overflow: hidden;
   display: block;
