@@ -25,22 +25,10 @@ const About = () => {
                     /> 
                 </h1>
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
-                </p>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
-                </p>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                I am passionate about creating games with Unreal Engine 5 and proficient in backend development using Java and the Spring framework.
+                As an enthusiastic and self-motivated programmer, I actively participate in diverse projects, regardless of the technology involved. 
+                For instance, during a recent technical test, I successfully completed tasks in Lua, a language I encountered for the first time, within the given timeframe. 
+                I thrive on learning new technologies that help me achieve my goals and contribute to innovative solutions.
                 </p>
             </div>
 

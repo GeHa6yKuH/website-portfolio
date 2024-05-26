@@ -58,7 +58,7 @@
   .text-zone {
       p {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.4);
             backdrop-filter: blur(10px);
             padding: 20px;
             border-radius: 20px;
@@ -81,7 +81,7 @@
 
     img, video {
       flex: 0 0 40%;
-      max-width: 40%;
+      max-width: 50%;
       margin-left: 40px;
       width: auto;
       height: auto;
@@ -105,7 +105,7 @@
 .project:nth-of-type(2) {
 
       h2 {
-            margin-left: 880px;
+            margin-left: 855px;
         }
 
       .project-row {
@@ -118,12 +118,11 @@
         }
     
         video {
-          flex: 0 0 50%;
-          max-width: 50%;
-          margin-left: -100px;
-          width: auto;
-          height: auto;
-          margin-top: -30px;
+          width: 45%;
+          height: 32%;
+          display: block;
+          margin-right: 20px;
+          margin-top: 15px;
         }
       }
     }
@@ -136,10 +135,10 @@
     }
 
     img {
-      flex: 0 0 40%;
-      max-width: 50%;
-      margin-bottom: 400px;
-      margin-top: -250px;
+      height: 600px;
+      width: 100px;
+      margin-bottom: 200px;
+      margin-top: -200px;
     }
   }
 }
