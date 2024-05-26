@@ -35,7 +35,7 @@ function App() {
         </Routes>
 
         <video autoPlay loop muted className="bg-video">
-          <source src="spacevid.mp4" type="video/mp4" />
+          <source src="/website-portfolio/spacevid.mp4" type="video/mp4" />
         </video>
         
         <div
