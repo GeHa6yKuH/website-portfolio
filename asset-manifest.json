@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/website-portfolio/static/css/main.d718d480.css",
+    "main.css": "/website-portfolio/static/css/main.e077866f.css",
     "main.js": "/website-portfolio/static/js/main.cce3310a.js",
     "static/js/453.01fe5e11.chunk.js": "/website-portfolio/static/js/453.01fe5e11.chunk.js",
-    "static/media/star-back.jpg": "/website-portfolio/static/media/star-back.c29537bb6eed9c9f65ae.jpg",
     "static/media/Cascadia.ttf": "/website-portfolio/static/media/Cascadia.bd7ac0c7c5582313a197.ttf",
     "static/media/springicon.png": "/website-portfolio/static/media/springicon.1493cea40dd5502e5ac7.png",
     "static/media/ueicon.png": "/website-portfolio/static/media/ueicon.096879561df4b0127f79.png",
@@ -15,12 +14,12 @@
     "static/media/cppicon.png": "/website-portfolio/static/media/cppicon.36a6aae067f8ef48fd4d.png",
     "static/media/CoolveticaRg-Regular.woff2": "/website-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/website-portfolio/index.html",
-    "main.d718d480.css.map": "/website-portfolio/static/css/main.d718d480.css.map",
+    "main.e077866f.css.map": "/website-portfolio/static/css/main.e077866f.css.map",
     "main.cce3310a.js.map": "/website-portfolio/static/js/main.cce3310a.js.map",
     "453.01fe5e11.chunk.js.map": "/website-portfolio/static/js/453.01fe5e11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d718d480.css",
+    "static/css/main.e077866f.css",
     "static/js/main.cce3310a.js"
   ]
 }
