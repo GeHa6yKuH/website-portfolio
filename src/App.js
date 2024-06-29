@@ -41,7 +41,7 @@ function App() {
         <div
           style={{
             position: 'fixed',
-            right: 50,
+            right: '2.5%',
             bottom: 0,
             height: '19.5%',
             width: '1.5px',
